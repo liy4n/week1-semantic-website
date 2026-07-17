@@ -97,16 +97,6 @@ Include the following screenshots in your repository:
 
 ---
 
-## 👨‍💻 Author
-
-**Julian III Sulit**
-
-Bachelor of Science in Information Technology
-
-Graphic Designer
-
----
-
 ## 📅 Submission Requirements
 
 - ✅ Semantic HTML website
