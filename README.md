@@ -1,5 +1,3 @@
-# week1-semantic-website
-
 # Week 1 Semantic Website
 
 ## 📌 Project Overview
