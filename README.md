@@ -87,20 +87,6 @@ This website includes several accessibility improvements:
 
 ---
 
-## 🚀 How to Run
-
-1. Download or clone this repository.
-
-```
-git clone https://github.com/YOUR_USERNAME/week1-semantic-website.git
-```
-
-2. Open the project folder.
-
-3. Open `index.html` in your preferred web browser.
-
----
-
 ## 📸 Screenshots
 
 Include the following screenshots in your repository:
