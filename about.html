@@ -3,42 +3,134 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>About me</title>
+    <title>About Me - Julian</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
 
 <header>
-    <h1>ABOUT ME</h1>
-        <nav>
-            <a href="index.html">Home</a>
-            <a href="about.html">About Me</a>
-            <a href="contact.html">Contact</a>
-        </nav>
+    <h1>JULIAN PORTFOLIO</h1>
+    <nav>
+        <a href="index.html">Home</a>
+        <a href="about.html">About Me</a>
+        <a href="project.html">Project</a>
+        <a href="contact.html">Contact</a>
+    </nav>
 </header>
 
 <main>
-    <section>
-        <img src="images/julian.jpg" alt="Julian Gwapo" width="200">
-        <h2>Graphic Designer Journey</h2>
-        <article>
-            <h3>Hi, I'm Julian</h3>
-                <p>a graphic designer and an Information Technology student with a passion for creativity. I enjoy turning ideas into simple, clean, and meaningful designs. I'm always eager to learn new skills, explore different design styles, and challenge myself with new projects. For me, every design is an opportunity to grow, express my creativity, and create something that people will remember.</p>
+    <aside>
+        <figure>
+            <img src="images/julian.jpg" class="profile-img" alt="Julian Gwapo" width="200">
+        </figure>
+
+        <section class="contact-section">
+            <h2>Let's Work Together :</h2>
+            
+            <address>
+                <ul>
+                    <li><strong>Email:</strong> <a href="mailto:julian@example.com">juliandesigner@gmail.com</a></li>
+                    <li><strong>Phone:</strong> <a href="tel:+639000000000">+63 123 456 7890</a></li>
+                    <li><strong>Instagram:</strong> @_liyan</li>
+                    <li><strong>Behance:</strong> <a href="behance.net"> Julian Sulit</a></li>
+                </ul>
+            </address>
+
+            <a href="contact.html" class="contact-btn">Contact Me</a>
+        </section>
+    </aside>
+
+    <!-- Right Content Area -->
+    <section class="main-bio">
+        <h2>About Me</h2>
+
+        <article class="intro">
+            <h3>Hi, I'm Julian III Sulit</h3>
+            <p>I am an Information Technology student and an aspiring <strong>UI/UX Designer</strong> & <strong> Graphic Designer</strong>. I enjoy creating simple, clean, and meaningful designs that are easy to understand. I like learning new skills, exploring different design styles, and improving with every project. My goal is to create designs that are useful, creative, and make a good experience for people.</p>
         </article>
-    </section>
 
-    <section>
-        <h2>Education</h2>
-            <p>St. Louise de Marillac College of Bogo - Bachelor of Science in Information Technology</p>
-    </section>
+        <!-- Main Content Grid Wrapper -->
+        <section class="grid-section">
+            <h2 class="visually-hidden">Details & Skills</h2>
 
-    <section>
-        <h2>Hobbies</h2>
-            <p>Playing Video games</p>
-            <p>Watching Movide</p>
-            <p>Travelling</p>
+            <!-- Left Column: Education Timeline + Hobbies -->
+            <section class="left-stack">
+                <h3 class="visually-hidden">Background</h3>
+
+                <article class="education">
+                    <h2>Education</h2>
+                    <ol class="timeline">
+                        <li class="timeline-item">
+                            <p>2023 - 2024</p>
+                            <h3>UNIVERSITY OF CEBU LAPU-LAPU & MANDAUE</h3>
+                            <p>Senior High School - Science, Technology, Engineering, and Mathematics</p>
+                        </li>
+                        <li class="timeline-item">
+                            <p>2026 - ongoing</p>
+                            <h3>ST.LOUISE DE MARILLAC COLLEGE OF BOGO</h3>
+                            <p>Bachelor of Science in Information Technology</p>
+                        </li>
+                    </ol>
+                </article>
+
+                <article class="hobbies">
+                    <h2>Hobbies</h2>
+                    <ul>
+                        <li>Playing Video Games</li>
+                        <li>Watching Movies</li>
+                        <li>Travelling</li>
+                    </ul>
+                </article>
+            </section>
+
+            <!-- Right Column: Software Skills Table -->
+            <article class="skills">
+                <h2>Software Skills</h2>
+                <table class="skills-table">
+                    <thead>
+                        <tr>
+                            <th scope="col">Software</th>
+                            <th scope="col">Proficiency</th>
+                            <th scope="col">Level</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>
+                                <img src="images/ps.png" alt="Photoshop Logo" class="skill-icon">
+                                <span>Photoshop</span>
+                            </td>
+                            <td>
+                                <meter value="90" min="0" max="100"></meter>
+                            </td>
+                            <td><strong>90%</strong></td>
+                        </tr>
+                        <tr>
+                            <td>
+                                <img src="images/ai.png" alt="Illustrator Logo" class="skill-icon">
+                                <span>Illustrator</span>
+                            </td>
+                            <td>
+                                <meter value="50" min="0" max="100"></meter>
+                            </td>
+                            <td><strong>50%</strong></td>
+                        </tr>
+                        <tr>
+                            <td>
+                                <img src="images/fig.png" alt="Figma Logo" class="skill-icon">
+                                <span>Figma</span>
+                            </td>
+                            <td>
+                                <meter value="50" min="0" max="100"></meter>
+                            </td>
+                            <td><strong>50%</strong></td>
+                        </tr>
+                    </tbody>
+                </table>
+            </article>
+        </section>
     </section>
 </main>
-
 
 <footer>
     <p>&copy; Julian Portfolio 2026. All rights reserved.</p>
