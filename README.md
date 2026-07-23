@@ -9,6 +9,7 @@ The portfolio consists of three pages:
 - **Home** – Introduces the designer, showcases projects, and displays software skills.
 - **About Me** – Shares personal background, education, and hobbies.
 - **Contact** – Provides a contact form and contact information.
+- **Projects** - Show my Projects
 
 ---
 
@@ -31,6 +32,7 @@ week1-semantic-website/
 │
 ├── index.html
 ├── about.html
+├── project.html
 ├── contact.html
 ├── README.md
 └── images/
@@ -89,6 +91,9 @@ This website includes several accessibility improvements:
 ### Contact
 - Contact form
 - Contact information
+
+### Project
+- Pojects
 
 ---
 
