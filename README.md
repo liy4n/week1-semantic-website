@@ -99,6 +99,10 @@ This website includes several accessibility improvements:
 ---
 
 ## 📸 Screenshots
+<img width="1917" height="1078" alt="home-screenshot" src="https://github.com/user-attachments/assets/93b99e6a-ce3d-45d0-aa14-dd346b73586c" />
+<img width="1917" height="1078" alt="about-me-screenshot" src="https://github.com/user-attachments/assets/322effc4-bb79-4edd-9c2d-ecf9d04a48f9" />
+<img width="1917" height="1078" alt="contact-screenshot" src="https://github.com/user-attachments/assets/5b169d13-cde1-4603-ab74-d2ba75b2f940" />
+
 
 Include the following screenshots in your repository:
 
