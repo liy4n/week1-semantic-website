@@ -14,7 +14,6 @@ The portfolio consists of three pages:
 
 ## Live Page
 
-https://liy4n.github.io/week1-semantic-website/
 
 ---
 
